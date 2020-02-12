@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+
 }
 
 /*Begin Nav-css*/
@@ -30,7 +31,6 @@ nav a:hover{
 
 
 /*End Nav-css*/
-
 
 
 body {
@@ -213,16 +213,108 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-
+  margin-left: 10%;
 }
 .productImg1{
   border:1px solid black;
-  max-width: 350px;
-  min-width: 250px;
+  width: 250px;
   height: 250px;
-  
+}
+
+.mainPart_top{
+  border:1px solid black;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.top_1{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+}
+
+.top_1 h2{
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Crimson Text', serif;
+}
+
+.top_1 p{
+  font-size: 12px;
+  font-family: 'Crimson Text', serif;
+}
+
+.top_2{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  text-align: center;
+}
+
+.top_2 p{
+  font-size: 12px;
+  font-family: 'Crimson Text', serif;
+}
+
+.mainPart_bottom{
+  border:1px solid black;
+  width: 100%;
+}
+
+.bottom_1 h2{
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Crimson Text', serif;
+}
+
+.bottom_1 p{
+  font-size: 12px;
+  font-family: 'Crimson Text', serif;
+}
+
+.top_3{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  text-align: center;
+}
+
+.top_3 p{
+  font-size: 12px;
+  font-family: 'Crimson Text', serif;
+}
+
+.bottom_1{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+}
+
+.bottom_3{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
+
+.bottom_3_boarder{
+  border:1px solid black;
+  width: 100px;
+  height:100px;
+}
 
 
