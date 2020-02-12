@@ -7,6 +7,8 @@ nav{
   display: flex;
   justify-content: space-between;
   padding-bottom: 0.7rem;
+
+
 }
 
 nav a{
@@ -34,21 +36,150 @@ body {
   padding: 2rem;
 }
 
-section:not([id]) {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  border-top: 1px solid #333;
+
+.homeContainer{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-section h3 {
+.homeMainPartImg{
+  border:1px solid black;
+  width: 100%;
+  height: 600px;
+}
 
-  margin-bottom: 1em;
+.homeMainPart2{
+  border:1px solid black;
+  width: 100%;
+  border-top: none;
+}
 
-  margin-bottom: 1;
+.homeMainPart2Img{
+  
+  width: 90%;
+  margin-top: 50px;
+
+  display: flex;
+
+  margin-left:5%;
+}
+
+.dropImg1{
+  border:1px solid black;
+  width: 25%;
+  height: 250px;
+  border-right: none;
 
 }
 
-section p {
-  margin-top: 0;
+
+.dropImg4{
+  border:1px solid black;
+  width: 25%;
+  height: 250px;
 }
+
+.homeMainPart2Content h2{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.homeMainPart2Button{
+  margin-top: 50px; 
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.button-shop-all{
+  border:1px solid black;
+  background-color: white;
+  display: inline-block;
+  padding: 1em 4em;
+  color: black;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+.button-shop-all:hover{
+  color: white;
+  background-color:black;
+}
+
+.homeMainPart3{
+  border:1px solid black;
+  width: 100%;
+  border-top: none;
+}
+
+.homeMainPart3Content h2{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+/*.footer{
+  border:1px solid black;
+  height: 300px;
+  border-top: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footerLeft{
+  border:1px solid black;
+  height: 150px;
+  width: 150px;
+  margin-top: 5%;
+}
+
+.footerCenter{
+  border:1px solid black;
+  height: 150px;
+  width: 150px;
+  margin-top: 5%;
+}
+
+.footerRight{
+  border:1px solid black;
+  height: 150px;
+  width: 150px;
+  margin-top: 5%;
+
+}*/
+
+.footer-top{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: space-around;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+
+.footer-bottom-left{
+  display: flex;
+}
+
+.footer-bottom-icon{
+  margin-right: 1em;
+}
+
+
+.footer-bottom-icon{
+  border:1px solid black;
+  width: 20px;
+  height:20px;
+}
+
+
+
+
 
