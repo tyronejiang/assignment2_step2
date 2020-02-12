@@ -71,17 +71,17 @@ body {
   border:1px solid black;
   width: 250px;
   height: 250px;
-  border-right: none;
+  
 }
 .dropImg1 img{
   width: 100%;
 }
 
-.dropImg4{
+/*.dropImg4{
   border:1px solid black;
   width: 250px;
   height: 250px;
-}
+}*/
 
 .homeMainPart2Content h2{
   margin-left: 5%;
