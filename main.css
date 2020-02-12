@@ -69,10 +69,30 @@ body {
 
 .dropImg1{
   border:1px solid black;
-  width: 250px;
+  width: 25%;
   height: 250px;
   
 }
+
+@media only screen and (max-width: 1000px){
+      .dropImg1{
+      border:1px solid black;
+      width: 33%;
+      height: 250px;
+      
+    }
+}
+
+@media only screen and (max-width: 500px){
+      .dropImg1{
+      border:1px solid black;
+      width: 50%;
+      height: 250px;
+      
+    }
+}
+
+
 .dropImg1 img{
   width: 100%;
 }
