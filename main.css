@@ -316,5 +316,67 @@ body {
   width: 100px;
   height:100px;
 }
+.product-container{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  border:1px solid black;
+}
 
+.product-left{
+  width: 50%;
+  border:1px solid black;
+}
 
+.product-left img{
+  width: 100%;
+  padding: 5em;
+}
+
+.product-right{
+  width:50%;
+  border:1px solid black;
+  border-left: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-item{
+  display:flex;
+  margin:2em;
+  width:100%;
+}
+
+.product-right h3{
+  color:black; 
+  margin-bottom: 5em;
+}
+
+.product-right a{
+  border:1px solid black;
+  padding: 1em 4em;
+  text-decoration: none;
+  color: black;
+  transition: all 0.6s;
+}
+
+.product-right a:hover{
+  background-color: black;
+  color: white;
+}
+
+.prodcut-review{
+  border: 1px solid black;
+  margin:2em;
+}
+.review-bottom{
+  border:1px solid black;
+  width:70%;
+  
+  margin: auto;
+  margin-top:2em;
+  margin-bottom: 10em;
+  text-align: center;
+}
