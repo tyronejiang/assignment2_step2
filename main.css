@@ -380,3 +380,107 @@ body {
   margin-bottom: 10em;
   text-align: center;
 }
+
+.checkOut_Main{
+  border:1px solid red;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.check_out_Main_left{
+  border:1px solid black;
+  width: 45%;
+  height: 350px;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+
+}
+
+.check_out_Main_right{
+  border:1px solid black;
+  width: 40%;
+  height: 350px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+.check_out_left_1{
+  border:1px solid red;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+}
+
+.check_out_left_2{
+  border:1px solid red;
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.check_out_Main_center{
+/*  border:1px solid red;
+*/  width: 45%;
+  height: 20px;
+  margin-top: -5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check_out_Main_right h2{
+  text-align:center;
+}
+
+.paymentPart2{
+  margin-left: 5%;
+}
+
+.input-info{
+  width: 90%;
+  padding: 0.5em 0;
+}
+
+.paypal_class{
+  display: flex;
+}
+
+.paypal{
+  border:1px solid black;
+  width: 10%;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.btn-submit, .btn-reset{
+  background-color: white;
+  display: inline-block;
+  padding: 1em 4em;
+  color: black;
+  border-radius: 0.25em;
+  text-decoration: none;
+  transition: all 0.6s;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+
+.btn-submit:hover, .btn-reset:hover{
+  color:white;
+  background-color:black;
+}
+
+
+
+
+
+
+
+
