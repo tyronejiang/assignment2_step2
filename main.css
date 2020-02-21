@@ -8,9 +8,8 @@ nav{
   display: flex;
   justify-content: space-between;
   padding-bottom: 0.7rem;
-
-
 }
+
 
 nav a{
   text-decoration: none;
@@ -679,6 +678,59 @@ footer p{
   font-weight: normal;
 }
 
+/*Menu Display*/
+.Menu-Hambuger{
+  display: none;
+  font-size: 20px;
+}
+
+.Menu-Hambuger i{
+  color: black;
+}
+
+.search-icon{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.menuInput{
+  display: none;
+  margin-top: 10px;
+  text-align: right;
+}
+
+
+@media only screen and (max-width: 600px){
+  .Menu-Hambuger{
+    display: block;
+  }
+
+  .nav_left{
+    display: none;
+  }
+
+  nav{
+    background-color: white;
+    border:1px solid black;
+    position: absolute;
+    top: 63px;
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    min-width: 375px;
+  }
+
+  nav a{
+    display: block;
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+  .search-icon{
+    display:none;
+  }
+}
 
 
 
