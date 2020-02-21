@@ -613,6 +613,17 @@ body {
   font-weight: normal;
 }
 
+
+.contact-us-right-1>div{
+  text-align:center;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+.check-out-submit{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom: 15px;
+}
 .contact-us-right-1 h3{
   font-family: 'Arimo', sans-serif;
   font-size:14px;
