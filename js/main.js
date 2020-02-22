@@ -41,5 +41,27 @@ to_p3 = function (){
 	$("#carousel-arrows-left").click(to_p2)
 }
 
- 
+ showMenu=function(){
+        if (!display){
+          $("nav").animate({"left":"0%"}, 1000)
+
+        }else{
+          $("nav").animate({"left":"-150%"}, 1000)
+        }
+        display = !display
+      }
+      display = false
+      setup = function(){
+        $(".Menu-Hambuger").click(showMenu)
+      }
+      $(document).ready(setup)
+
+      function displaySearchArea(){
+        var x = document.getElementById("inputName");
+        if(x.style.display == ""){
+          x.style.display = "block"
+        }else{
+          x.style.display = ""
+        }
+      }
 
