@@ -2,50 +2,20 @@
 <html lang="en">
   
   <head>
-    <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="utf-8" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
     <link href="main.css" rel="stylesheet">
-    <script type="text/javascript" src="js/main.js"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Abel|Crimson+Text|Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
   </head>
   
   <body>
-
-    <script>
-      showMenu=function(){
-        if (!display){
-          $("nav").animate({"left":"0%"}, 1000)
-
-        }else{
-          $("nav").animate({"left":"-150%"}, 1000)
-        }
-        display = !display
-      }
-      display = false
-      setup = function(){
-        $(".Menu-Hambuger").click(showMenu)
-      }
-      $(document).ready(setup)
-
-      function displaySearchArea(){
-        var x = document.getElementById("inputName");
-        if(x.style.display == ""){
-          x.style.display = "block"
-        }else{
-          x.style.display = ""
-        }
-      }
-
-    </script>
-
-
-
 
     <div class="Menu-Hambuger">
        <a href="javascript:void(0);">
@@ -71,22 +41,22 @@
    	<section class="homeContainer">
       <!-- Carousel -->
    		<div class="homeMainPartImg">
-<!--         <div class="carousel-images" id="carousel-images-1">
- -->          <img src="img/home_page/HomePage_3.jpg">
-<!--         </div>
- --><!-- 
-        <div class="carousel-images" id="carousel-images-2">
-          <img src="img/home_page/HomePage_2.png">
-        </div>
+        	<div class="carousel-images" id="carousel-images-1">
+          		<img src="img/home_page/HomePage_1.png">
+        	</div>
 
-        <div class="carousel-images" id="carousel-images-3">
-          <img src="img/home_page/HomePage_3.jpg">
-        </div>
+	        <div class="carousel-images" id="carousel-images-2">
+	          <img src="img/home_page/HomePage_2.png">
+	        </div>
 
-        <div class="carousel-arrows">
-          <a href="javascript:void(0)" id="carousel-arrows-left" class="fas fa-angle-left"></a>
-          <a href="javascript:void(0)" id="carousel-arrows-right" class="fas fa-angle-left"></a>
-        </div> -->
+	        <div class="carousel-images" id="carousel-images-3">
+	          <img src="img/home_page/HomePage_3.jpg">
+	        </div>
+
+	        <div class="carousel-arrows">
+	          <a href="javascript:void(0)" id="carousel-arrows-left"><i class='fas fa-angle-left'></i></a>
+	          <a href="javascript:void(0)" id="carousel-arrows-right"><i class='fas fa-angle-right'></i></a>
+	        </div>
 
    		</div>
       <!-- End Carousel -->
