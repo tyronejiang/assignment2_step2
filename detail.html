@@ -8,7 +8,13 @@
   </head>
   <body>
 
-  	<nav>
+  	 <div class="Menu-Hambuger">
+       <a href="javascript:void(0);">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+  	<nav id="menuId">
     	<div class="nav_left">LOGO</div>
     	<div class="nav_right">
     		<a href="home.html">HOME</a>
@@ -16,6 +22,10 @@
 	        <a href="about_us.html">ABOUT US</a>
 	        <a href="contact_us.html">CONTACT US</a>
           <a href="check_out.html">CHECK OUT</a>
+          <a class="search-icon" href="javascript:void(0);" onclick="displaySearchArea()"><i class="fa fa-search"></i></a>
+          <div class="menuInput" id="inputName">
+            <input type="text" placeholder="Search" >
+          </div>
     	</div>
     </nav>
   
@@ -23,13 +33,27 @@
 	  	<div class="product-container">
 				<div class="product-item">
 					<div class="product-left">
-						<img src="img/detail/detail_1.png" alt="AJ" >
+							<img src="img/detail/detail_1.png" alt="AJ" >
+							<img src="img/detail/detail_1-2.png" alt="AJ" >
+							<img src="img/detail/detail_1-3.png" alt="AJ" >
 					</div>
 					<div class="product-right">
 						<h3> Supreme x Dunk SB Low 'Metallic Gold' </h3>
+						<div class="shoe-size">
+						 <p>choose your size:</p>
+						 <button>6</button>
+			             <button>7</button>
+			             <button>8</button>
+			             <button>9</button>
+			             <button>10</button>
+			             <button>11</button>
+			             <button>12</button>
+			             <button>13</button>
+			    		</div>
 						<div class="product-right-bottom">
-							<a href="">BUY $160</a>
+							<a href="check_out.html">BUY $160</a>
 						</div>
+					
 						
 					</div>
 				</div>
@@ -50,7 +74,7 @@
 				</div>
 		</div>
 	</div>
-  <body>
+ 
 
   	<footer>
       <div class="footer-top">

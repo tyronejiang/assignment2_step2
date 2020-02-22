@@ -217,6 +217,7 @@ body {
 
 .footer-bottom-left{
   display: flex;
+  flex:wrap;
 }
 
 .footer-bottom-icon{
@@ -225,9 +226,8 @@ body {
 
 
 .footer-bottom-icon{
-  border:1px solid black;
-  width: 20px;
-  height:20px;
+  
+  
 }
 
 .shop_all_products{
@@ -372,11 +372,14 @@ body {
 .product-left{
   width: 50%;
   border:1px solid black;
+  height:550px;
+  overflow: scroll;
 }
 
 .product-left img{
   width: 100%;
   padding: 5em;
+
 }
 
 .product-right{
@@ -456,7 +459,8 @@ body {
 .review-bottom{
   border:1px solid black;
   width:70%;
-  
+  height: 200px;
+  overflow: scroll;
   margin: auto;
   margin-top:2em;
   margin-bottom: 10em;
@@ -697,6 +701,7 @@ footer p{
   display: none;
   margin-top: 10px;
   text-align: right;
+  padding: 0.5em 0;
 }
 
 
@@ -730,8 +735,42 @@ footer p{
   .search-icon{
     display:none;
   }
+
+  .footerLeft{
+    width:100%;
+  }
+  .footerCenter{
+    width:100%;
+  }
+  .footerRight{
+    width:100%;
+  }
+  .footer-top{
+    text-align: center;
+  }
+
+
 }
 
+.shoe-size{
+  margin-bottom:90px;
+  text-align: center;
+}
+
+.shoe-size button{
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all .5s;
+}
+.shoe-size button:hover,
+.shoe-size button:active,
+.shoe-size button:focus {
+  border: 2px solid black;
+  outline: none;
+}
 
 
 

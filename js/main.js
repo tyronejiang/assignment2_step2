@@ -1,3 +1,5 @@
+
+
 to_p1 = function (){
 	$("#carousel-images-2").hide()
 	$("#carousel-images-3").hide()
@@ -39,11 +41,5 @@ to_p3 = function (){
 	$("#carousel-arrows-left").click(to_p2)
 }
 
-setup = function(){
-	$("#carousel-arrows-right").click(to_p2)
-	$("#carousel-images-1").show()
-}
-$(document).ready(setup)
-
-
+ 
 
