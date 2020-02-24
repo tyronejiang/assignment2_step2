@@ -821,13 +821,11 @@ footer p{
   padding: 10px 20px;
   font-size: 12px;
   cursor: pointer;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-.shoe-size button:hover,
-.shoe-size button:active,
-.shoe-size button:focus {
-  border: 2px solid black;
-  outline: none;
+
+.shoe-size button:hover {
+  border: 1px solid black;
 }
 
 .contact-us-left>iframe{
