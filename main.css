@@ -493,7 +493,7 @@ body {
 }
 .review-bottom1 p{
 	font-family: 'Arimo', sans-serif;
-  font-size:12px;
+  font-size:14px;
   font-weight: normal;
 }
 .review-bottom{
@@ -1018,6 +1018,50 @@ footer p{
   height: 100%;
   border:0 
 }
+
+.review-overall-1{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #bebebe;
+}
+
+.review-overall-1 p{
+  font-family: 'Arimo', sans-serif;
+  font-size:12px;
+}
+
+.review-overall-2{
+  border-bottom: 1px solid #bebebe;
+}
+
+.review-overall-2-left{
+  width: 30%;
+}
+
+.review-overall-2-right{
+  width: 70%;
+}
+
+.review-overall-2{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.review-overall-2-right-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
 
 
 
