@@ -82,14 +82,14 @@ body {
 
 .carousel-arrows>a:nth-of-type(1){
 	position: absolute;
-	top:43%;
+	top:35%;
 	left:2%;
 	z-index: 2;
 }
 
 .carousel-arrows>a:nth-of-type(2){
 	position: absolute;
-	top:43%;
+	top:35%;
 	right:2%;
 	z-index: 2;
 }
@@ -819,9 +819,112 @@ footer p{
 	width:100%; 
 	height: 100%;
 	border:0 
+}
+
+
+
+/*Log In Css*/
+
+.log-in-main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.log-in-left{
+  border:1px solid #bebebe;
+  width: 50%;
+  height: 400px;
+  overflow: scroll;
+}
+
+.log-in-left img{
+  width: 100%;
+  height: 100%;
+}
+
+.log-in-right{
+  border:1px solid #bebebe;
+  width: 50%;
+}
+
+.log-in-right-1{
+  width: 90%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.log-in-right-1 h2{
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  font-size:18px;
+  font-weight: normal;
+}
+
+.forget-password{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.forget-password a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
 
 }
 
+
+.log-in-right-1>div{
+  text-align:center;
+  margin-top:10px;
+  margin-bottom: 15px;
+}
+.check-out-submit{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom: 15px;
+}
+.log-in-right-1 h3{
+  font-family: 'Arimo', sans-serif;
+  font-size:14px;
+  font-weight: normal;
+}
+
+.log-in-input{
+  width: 100%;
+  padding: 8px 5px;
+}
+
+.log-in-input-description{
+  width: 100%;
+  height: 100px;
+  padding: 8px 5px;
+}
+
+.clog-in-right-2{
+  border:1px solid black;
+  width:100%;
+
+}
+
+@media only screen and (max-width: 1000px){
+  .log-in-left{
+    width:100%;
+    height:500px;
+  }
+  .log-in-right{
+    width:100%;
+  }
+  /*.log-in-right-1{
+    margin-top: 15%;
+  }*/
+}
+
+.log-in-left>iframe{
+  width:100%; 
+  height: 100%;
+  border:0 
+}
 
 
 
