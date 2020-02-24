@@ -8,6 +8,7 @@ nav{
   display: flex;
   justify-content: space-between;
   padding-bottom: 0.7rem;
+
 }
 
 
@@ -499,13 +500,14 @@ body {
 .review-bottom{
   border:1px solid black;
   width:70%;
-  height: 200px;
+  height: 400px;
   overflow: scroll;
   margin: auto;
   margin-top:2em;
   margin-bottom: 10em;
   text-align: center;
 }
+
 .checkOut_Main p{
   font-family: 'Arimo', sans-serif;
   font-size:12px;
@@ -563,6 +565,7 @@ body {
 }
 
 .check_out_left_2{
+  padding-bottom: 50px;
   border-bottom: 1px solid black;
   width: 100%;
   margin: auto;
