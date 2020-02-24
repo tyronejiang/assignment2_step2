@@ -603,12 +603,15 @@ body {
 }
 
 .paypal{
-  border:1px solid black;
+  
   width: 10%;
-  height: 30px;
   margin-left: 5%;
   margin-top: 5%;
 }
+.paypal i{
+  font-size: 30px;
+}
+
 
 .btn-submit, .btn-reset{
   background-color: white;
