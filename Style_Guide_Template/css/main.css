@@ -1,0 +1,239 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+*{
+  box-sizing: border-box;
+}
+
+/*Begin Nav-css*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.7rem;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0.5rem;
+  color: grey;
+  transition: all 0.6s;
+}
+
+nav a:hover{
+  color: black;
+  text-decoration:underline;
+}
+
+.nav_left{
+  font-size: 20px;
+}
+/*End Nav-css*/
+
+
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+
+  margin-bottom: 1em;
+
+  margin-bottom: 1;
+
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.8em 0.75em;
+}
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0.5rem;
+  color: grey;
+  transition: all 0.6s;
+}
+
+.button-nav:hover, .button-nav:focus {
+    color: black;
+    text-decoration:underline;
+}
+
+/*Styling for the in text link*/
+
+.in-text-link{
+  color:grey;
+  transition: color 0.6s;
+  text-decoration: none;
+  font-size: 12px;
+}
+.in-text-link:hover, .in-text-link:focus {
+  color: black;
+  text-decoration:underline;
+}
+
+/*Styling for submit button*/
+.btn-submit, .btn-reset{
+  background-color: white;
+  display: inline-block;
+  padding: 1em 4em;
+  color: black;
+  border-radius: 0.25em;
+  text-decoration: none;
+  transition: all 0.6s;
+  
+}
+.btn-submit:hover, .btn-reset:hover{
+  color:white;
+  background-color:black;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+.heading-one{
+  font-size:3rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.heading-two{
+  font-size:2rem;
+  font-family: 'Crimson Text', serif;
+}
+
+.heading-three{
+  font-size:1.5rem;
+  font-family: 'Abel', sans-serif;
+}
+
+.para{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bullet-lst{
+  font-family: 'Noto Sans', sans-serif;
+  list-style-type:disc;
+}
+.numbered-lst{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+
+*/
+.product-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.product-left{
+  width: 50%;
+  border:1px solid black;
+}
+
+.product-left img{
+  width: 100%;
+  padding: 5em;
+}
+
+.product-right{
+  width:50%;
+  border:1px solid black;
+  border-left: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*.product-right-top{
+  text-align: center;
+}*/
+
+.product-item{
+  display:flex;
+  margin:1em;
+}
+
+.product-right h3{
+  color:black; 
+  margin-bottom: 5em;
+}
+
+.product-right a{
+  border:1px solid black;
+  padding: 1em 4em;
+  text-decoration: none;
+  color: black;
+  transition: all 0.6s;
+}
+
+.product-right a:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+nav#menu {
+  display: flex;
+}
+
+.colour1{
+  text-align:center;
+  color:white;
+  height:50px;
+  background-color: black;
+}
+
+.colour2{
+  text-align:center;
+  color:black;
+  height:50px;
+  background-color: white;
+}
+.colour3{
+  text-align:center;
+  color:white;
+  height:50px;
+  background-color: grey;
+}
+
+
+.sitemapImg{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

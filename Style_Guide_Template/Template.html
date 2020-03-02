@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Crimson+Text|Noto+Sans&display=swap" rel="stylesheet">
+   
+  </head>
+
+  <body>
+
+
+    <nav>
+    	<div class="nav_left">LOGO</div>
+    	<div class="nav_right">
+    		<a href="../home.html">HOME</a>
+	        <a href="../shop_all.html">SHOP ALL</a>
+	        <a href="../about_us.html">ABOUT US</a>
+	        <a href="../contact_us.html">CONTACT US</a>
+          <a href="../sign_up.html">JOIN / SIGN IN</a>
+          <a href="sitemap.html">SITEMAP</a>
+          <a href="desktopWire.html">DESKTOP</a>
+          <a href="mobileWire.html">MOBILE</a>
+    	</div>
+    </nav>
+
+    <h1>Style Guide Template</h1>
+
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button123</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code class="code-class">&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="in-text-link"&gt;in-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="in-text-link" href="#">In-Text Link</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.btn-submit</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="btn-submit" type="submit" value="Submit"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="btn-submit" type="submit" value="Submit">
+		
+		<h3>CSS selector:</h3>
+        <p>.btn-reset</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="btn-reset" type="reset" value="Reset"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="btn-reset" type="reset" value="Reset" >
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.input-info</p>
+
+        <h3>Sample code:</h3>
+        <code>
+		&lt;label&gt;Name&lt;/label&gt;
+		&lt;input class="input-info" type="text" placeholder="name" &gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <label>Name</label>
+		<input class="input-info" type="text" placeholder="name">
+		<span class="focus-border"></span>
+
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+        <p>.heading-one</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h1 class="heading-one"&gt;Heading one&lt;/h1&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="heading-one">Heading one</h1>
+		
+		<h3>CSS selector:</h3>
+        <p>.heading-two</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h2 class="heading-two"&gt;Heading two&lt;/h2&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h2 class="heading-two">Heading two</h2>
+		
+		<h3>CSS selector:</h3>
+        <p>.heading-three</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;h3 class="heading-three"&gt;Heading three&lt;/h3&gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <h3 class="heading-three">Heading three</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.para</p>
+		
+		<h3>Sample code:</h3>
+        <code>&lt;p class="para"&gt;This is a paragraph&lt;/p&gt;
+		</code>
+
+        <h3>Rendered element:</h3>
+        <p class="para">This is a paragraph</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+		<h3>CSS selector:</h3>
+        <p>.bullet-lst</p>
+		
+		<h3>Sample code:</h3>
+		<pre>
+        <code>
+&lt;ul class="bullet-lst"&gt;
+
+	&lt;li&gt;item 1&lt;/li&gt;
+
+  	&lt;li&gt;item 2&lt;/li&gt;
+
+&lt;/ul&gt;</code>
+		</pre>
+
+        <h3>Rendered element:</h3>
+        <ul class="bullet-lst">
+			<li>item 1</li>
+			<li>item 2</li>
+		</ul>
+		
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+		<h3>CSS selector:</h3>
+        <p>.numbered-lst</p>
+		
+		<h3>Sample code:</h3>
+		<pre>
+        <code>
+&lt;ol class="numbered-lst"&gt;
+
+	&lt;li&gt;item 1&lt;/li&gt;
+
+  	&lt;li&gt;item 2&lt;/li&gt;
+
+&lt;/ol&gt;</code>
+		</pre>
+
+        <h3>Rendered element:</h3>
+        <ol class="numbered-lst">
+			<li>item 1</li>
+			<li>item 2</li>
+		</ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+		<p>nav#menu</p>
+		
+		<h3>Sample code:</h3>
+		<pre><code>
+&lt;nav&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 1&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 2&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 3&lt;/a&gt;
+
+	&lt;a href="#" class="button-nav"&gt;Menu 4&lt;/a&gt;
+
+&lt;/nav&gt;</code></pre>
+		
+		<h3>Rendered element:</h3>
+		<nav>
+	    	<div class="nav_left">LOGO</div>
+	    	<div class="nav_right">
+	    		<a href="#">HOME</a>
+		        <a href="#">SHOP ALL</a>
+		        <a href="#">BRANDS</a>
+		        <a href="#">ABOUT US</a>
+		        <a href="#">CONTACT US</a>
+	    	</div>
+    	</nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.product-container</p>
+		<p>.product-item</p>
+		<p>.product-item h3</p>
+		<p>.product-item ul</p>
+		<p>.product-item p</p>
+		<p>.button-detail</p>
+		
+		<h3>Rendered element:</h3>
+		<div class="product-container">
+			<div class="product-item">
+				<div class="product-left">
+					<img src="img/AJ.jpg" alt="BMW m4" >
+				</div>
+				<div class="product-right">
+						<h3> Air Jordan 1 Retro High OG 'Black Gym Red' </h3>
+					<div class="product-right-bottom">
+						<a href="">BUY $140</a>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="product-item">
+				<div class="product-left">
+					<img src="img/AJ.jpg" alt="BMW m4" >
+				</div>
+				<div class="product-right">
+						<h3> Air Jordan 1 Retro High OG 'Black Gym Red' </h3>
+					<div class="product-right-bottom">
+						<a href="">BUY $140</a>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="product-item">
+				<div class="product-left">
+					<img src="img/AJ.jpg" alt="BMW m4" >
+				</div>
+				<div class="product-right">
+						<h3> Air Jordan 1 Retro High OG 'Black Gym Red' </h3>
+					<div class="product-right-bottom">
+						<a href="">BUY $140</a>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+
+			
+			
+		</div>
+
+		
+      </section>
+	
+	
+
+		  <section>
+        	<h2>Website Colour Swatches</h2>
+
+        	<div class="colour1" > black</div>
+        	<div class="colour2" > white</div>
+        	<div class="colour3" > grey</div>
+
+		  </section>
+
+	    
+	    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
