@@ -811,9 +811,10 @@ footer p{
   .footer-top{
     text-align: center;
   }
-
-
 }
+
+
+
 
 .shoe-size{
   margin-bottom:90px;
@@ -1009,6 +1010,17 @@ footer p{
 .bottom_3 p{
   font-size: 12px;
 }
+
+.footerCenter a{
+  text-decoration: none;
+  color: black;
+}
+
+.gitImg img{
+  width: 100%;
+}
+
+
 
 
 
