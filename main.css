@@ -153,13 +153,20 @@ body {
   justify-content: center;
   align-items: center;
   font-size:0;
+  position: relative;
 }
 
 
 .dropImg1 img{
-  width: 98%;
+  width: 95%;
   margin:2px;
+  opacity: 100%;
   /*border:1px solid ;*/
+}
+
+.dropImg1 img:hover{
+  transition: all 0.8s;
+  opacity: 30%;
 }
 
 /*.dropImg4{
@@ -192,7 +199,7 @@ body {
   padding: 1em 4em;
   color: black;
   text-decoration: none;
-  transition: all 0.6s;
+  transition: all 0.8s;
 }
 
 .button-shop-all:hover{
@@ -228,6 +235,8 @@ body {
 
 
   }
+
+
 
 
 
@@ -316,7 +325,7 @@ body {
 
 .footer-bottom-left{
   display: flex;
-  flex:wrap;
+  flex-wrap:wrap;
 }
 
 .footer-bottom-icon{
@@ -333,7 +342,7 @@ body {
 }
 
 .shop_all_img{
-  transition: transform 0.6s;
+  transition: transform 0.8s;
 }
 
 .shop_all_img:hover{
@@ -341,7 +350,7 @@ body {
 }
 
 .productImg1 img{
-	width: 100%;
+	width: 90%;
 }
 
 
@@ -360,10 +369,10 @@ body {
 
 
 
-.productImg1 p{
+.dropImg1 p{
 	position: absolute;
-	z-index: 1;
-	top:180px;
+	z-index: 10;
+	top:80%;
 	font-size: 12px;
 	font-family: 'Arimo', sans-serif;
 }
@@ -504,6 +513,15 @@ body {
   margin:2em;
   width:100%;
 }
+.size-select{
+  display: none;
+}
+
+select{
+  width: 100%;
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 1000px){
 	.product-left{
 		width: 100%;
@@ -530,6 +548,12 @@ body {
   .product-left img{
     transform:scale(1.3);
   } 
+  .product-right button{
+    display: none;
+  }
+  .size-select{
+    display: block;
+  }
 }
 
 .product-right h3{
@@ -878,7 +902,11 @@ footer p{
   }
 }
 
+.two-button{
+  display: flex;
+  flex-wrap: wrap;
 
+}
 
 
 .shoe-size{
@@ -897,6 +925,11 @@ footer p{
 
 .shoe-size button:hover {
   border: 1px solid black;
+}
+
+.shoe-size button:focus{
+  background: black;
+  color: white;
 }
 
 .contact-us-left>iframe{
