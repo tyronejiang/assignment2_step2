@@ -1121,7 +1121,17 @@ footer p{
   width: 100%;
 }
 
+.top_1 h2{
+  text-align: center;
+}
 
+.top_1 p{
+  text-align: center;
+}
+
+#order{
+  margin-bottom: 10%;
+}
 
 
 
