@@ -65,11 +65,13 @@ $(document).ready(setup)
       }
       $(document).ready(setup)
 
-      function displaySearchArea(){
-        var x = document.getElementById("inputName");
-        if(x.style.display == ""){
-          x.style.display = "block"
-        }else{
-          x.style.display = ""
-        }
-      }
+function displaySearchArea(){
+    var x = document.getElementById("inputName");
+    if(x.style.display == ""){
+       x.style.display = "block"
+    }else{
+       x.style.display = ""
+    }
+}
+
+

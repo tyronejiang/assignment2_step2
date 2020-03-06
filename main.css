@@ -719,7 +719,7 @@ select{
 }
 
 
-.btn-submit, .btn-reset{
+.btn-submit, .btn-remove{
   background-color: white;
   padding: 1em 4em;
   color: black;
@@ -731,7 +731,7 @@ select{
 
 
 
-.btn-submit:hover, .btn-reset:hover{
+.btn-submit:hover, .btn-remove:hover{
   color:white;
   background-color:black;
 }
